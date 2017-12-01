@@ -26,9 +26,11 @@ html {
 }
 
 .header {
-  background-color: #9933cc;
+  background-color:teal;
   color: #ffffff;
+  border-bottom:2px solid #ccc;
   padding: 15px;
+  font-size: 24px;
 }
 
 .menu ul {
@@ -50,20 +52,27 @@ html {
 }
 
 .aside {
-  background-color: #33b5e5;
+  background-color: white;
   padding: 15px;
-  color: #ffffff;
+  color: teal;
   text-align: center;
   font-size: 14px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
+.main-container{
+  background-color:bisque;
+  border:1px solid #ddd;
+}
+
 .footer {
-  background-color: #0099cc;
+  clear:both;
   color: #ffffff;
   text-align: center;
   font-size: 12px;
   padding: 15px;
+  background-color: #4aaaa5;
+  border-top: 10px #666;
 }
 
 
